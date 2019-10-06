@@ -10,32 +10,32 @@ public class Categoria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String name;
+    private Integer id;
+    private String nome;
 
     public Categoria() {
 
     }
 
-    public Categoria(long id, String name) {
+    public Categoria(Integer id, String nome) {
         this.id = id;
-        this.name = name;
+        this.nome = nome;
     }
 
-    public long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getnome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setnome(String nome) {
+        this.nome = nome;
     }
 
     @Override
