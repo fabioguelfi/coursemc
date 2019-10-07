@@ -1,4 +1,4 @@
-package com.guelfi.cursomc.cursomc.domain;
+package com.guelfi.curso.api.domain;
 
 import java.util.ArrayList;
 import java.util.List;

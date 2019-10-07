@@ -7,10 +7,10 @@
         <version>2.1.9.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.guelfi.cursomc</groupId>
-    <artifactId>cursomc</artifactId>
+    <groupId>com.guelfi.curso</groupId>
+    <artifactId>curso</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cursomc</name>
+    <name>curso</name>
     <description>estudo de caso java para curso de modelagem conceitual com uml</description>
 
     <properties>

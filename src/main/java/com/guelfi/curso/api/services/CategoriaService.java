@@ -1,11 +1,11 @@
 
-package com.guelfi.cursomc.cursomc.services;
+package com.guelfi.curso.api.services;
 
 import java.util.Optional;
 
-import com.guelfi.cursomc.cursomc.domain.Categoria;
-import com.guelfi.cursomc.cursomc.repositories.CategoriaRepository;
-import com.guelfi.cursomc.cursomc.services.exceptions.ObjectNotFoundException;
+import com.guelfi.curso.api.domain.Categoria;
+import com.guelfi.curso.api.repositories.CategoriaRepository;
+import com.guelfi.curso.api.services.exceptions.ObjectNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

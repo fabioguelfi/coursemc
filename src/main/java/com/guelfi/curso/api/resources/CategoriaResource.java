@@ -1,7 +1,7 @@
-package com.guelfi.cursomc.cursomc.resources;
+package com.guelfi.curso.api.resources;
 
-import com.guelfi.cursomc.cursomc.domain.Categoria;
-import com.guelfi.cursomc.cursomc.services.CategoriaService;
+import com.guelfi.curso.api.domain.Categoria;
+import com.guelfi.curso.api.services.CategoriaService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
